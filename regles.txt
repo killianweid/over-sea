@@ -1,0 +1,8 @@
+- Taille du bateau de 1 à 3 : (arret au bord de la map)
+	- 1 : rapide, deplacement de 10 en 10, PV: 20, attaque : 2
+	- 2 : moyen, deplacement de 5 en 5, PV : 25, attaque : 5
+	- 3 : lent, deplacement de 2 en 2, PV : 30 : attaque : 8
+
+- Possibilite de bonus ? -> reparation, puissance d'attaque durant un temps imparti, vitesse durant un temps imparti
+- presence d'ile ?
+

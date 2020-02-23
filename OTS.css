@@ -1,0 +1,208 @@
+#ship {
+	position:absolute;
+	top : 10px;
+	visibility : hidden;
+}
+
+#ship2 {
+	position:absolute;
+	visibility : hidden;
+}
+
+.boulet{
+	position:absolute;
+	width:60px;
+}
+
+#degat{
+  margin:0;
+  display:none;
+  font-size: 25px;
+  position: relative;
+  color:red;
+  font-weight: bold;
+}
+
+#degat2{
+  margin:0;
+  display:none;
+  font-size: 25px;
+  position: relative;
+  font-weight: bold;
+}
+
+#bloc_text_player1 p{
+  color: red;
+}
+
+#bloc_text_player1 p,#bloc_text_player2 p{
+  margin : 0;
+  font-size:22px;
+  font-weight: bold;
+}
+
+#go{
+  background-color: rgba(74, 255, 71, 0.57);
+  font-size: 24px;
+  font-weight: bold;
+  height: 45px;
+  width:46%;
+}
+
+h1{
+  margin:0;
+}
+
+#profil_Bateau1,#profil_Bateau2,#profil_Bateau3,#profil_Bateau12,#profil_Bateau22,#profil_Bateau32{
+  display:none;
+}
+
+#profil_Bateau1 p,#profil_Bateau2 p,#profil_Bateau3 p,#profil_Bateau12 p,#profil_Bateau22 p,#profil_Bateau32 p{
+  margin:0;
+  font-weight: bold;
+}
+
+#bloc_button,#bloc_button2{
+  margin-top:5px;
+  margin-bottom: 10px;
+  display:flex;
+}
+
+button{
+  width: 36%;
+}
+
+#joueur1 {
+  width:50%;
+  background-color: rgba(255,255,255,0.65);
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+}
+
+#joueur2{
+  width:50%;
+  background-color: rgba(255,255,255,0.65);
+  border-bottom: solid 1px;
+}
+
+#life1,#life2{
+  width:120px;
+  position:relative;
+  top:0px;
+  left:0px;
+  text-align: center;
+}
+
+#bloc_life1,#bloc_life2{
+  display:flex;
+}
+
+#valeur_life1{
+  position:absolute;
+  top: 100px;
+  left: 74.5%;
+  font-weight: bold;
+  font-size: 31px;
+}
+
+#valeur_life2{
+  position:absolute;
+  font-weight: bold;
+  font-size: 31px;
+  left: 90.3%;
+  top: 100px;
+}
+
+
+body {
+  cursor: url('curse.cur'), auto;
+  background-image: url(ciel.jpg);
+  background-repeat: no-repeat;
+}
+
+#map_et_infos{
+	display: flex;
+}
+
+#coord{
+  display:flex;
+  font-weight: bold;
+}
+
+#map{
+		background-image: url(walp.png);
+    height: 606px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:solid 1px black;
+    border-radius:8px;
+    box-shadow:10px 10px 10px #00ACCF;
+}
+
+#joueurs{
+  display: flex
+}
+
+#blockinfo{
+    width : 50%;
+    height : 100%;
+    margin-left: 50px;
+    border:solid 1px black;
+    border-radius:8px;
+    box-shadow:10px 10px 10px #00ACCF;
+    text-align: center;
+    background-image: url(pirate.png);
+    background-repeat:no-repeat;
+    cursor: url('curse.cur'), auto;
+}
+
+#J1{
+  display:none;
+  position:relative;
+  margin:0;
+  width:15px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgba(255,255,255,0.65);
+  color: red;
+}
+
+#J2{
+  display:none;
+  position:relative;
+  margin:0;
+  width:15px;
+  font-weight: bold;
+  font-size:15px;
+  background-color: rgba(255,255,255,0.65);
+}
+
+#titre{
+  width : 350px;
+  height: 150px;
+}
+
+#bloc_text_player1{
+  background-color: #ffffff;
+  border:solid 1px black;
+  border-radius:8px;
+}
+
+#bloc_text_player2{
+  background-color: #ffffff;
+  border:solid 1px black;
+  border-radius:8px;
+}
+#Champs {
+
+width : 100%;
+
+}
+
+#plateau {
+
+width : 100%;
+height : 639px;
+
+}
