@@ -118,6 +118,7 @@ body {
   cursor: url('curse.cur'), auto;
   background-image: url(ciel.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #map_et_infos{
@@ -155,6 +156,7 @@ body {
     background-image: url(pirate.png);
     background-repeat:no-repeat;
     cursor: url('curse.cur'), auto;
+    background-position-x: center;
 }
 
 #J1{
